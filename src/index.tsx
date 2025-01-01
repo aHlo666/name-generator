@@ -607,15 +607,6 @@ export default () => {
           原理介绍
         </Button>
       </div>
-      /*<Drawer
-        size="large"
-        title="原理介绍"
-        placement="right"
-        onClose={onClose}
-        open={isOpen}
-      >
-        <Desc></Desc>
-      </Drawer>*/
       <p>
         姓氏:{input_姓氏}
         {tip}
