@@ -564,7 +564,6 @@ export default () => {
       </div>
       <p></p>
       <div>
-        /*
         <Button
           type="primary"
           shape="round"
@@ -608,7 +607,7 @@ export default () => {
           原理介绍
         </Button>
       </div>
-      <Drawer
+      /*<Drawer
         size="large"
         title="原理介绍"
         placement="right"
@@ -616,8 +615,7 @@ export default () => {
         open={isOpen}
       >
         <Desc></Desc>
-      </Drawer>
-      */
+      </Drawer>*/
       <p>
         姓氏:{input_姓氏}
         {tip}
