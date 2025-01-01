@@ -602,10 +602,6 @@ export default () => {
         >
           下载所有姓名方案在电脑查看
         </Button>
-        <Divider type="vertical"></Divider>
-        <Button ghost type="primary" shape="round" onClick={showDrawer}>
-          原理介绍
-        </Button>
       </div>
       <p>
         姓氏:{input_姓氏}
