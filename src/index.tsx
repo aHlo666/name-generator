@@ -45,7 +45,7 @@ let default_姓氏末字_拼音_choose =
   );
 let default_input_排除字列表 = utils.getValueByStorage<string>(
   Const.Storage_Key_Map.需过滤字列表,
-  "李诞\n呼兰\n思文\n黄西"
+  "孙悟空\n吕布\n武松"
 );
 let default_input_必选字位置 = utils.getValueByStorage<Type.CharSpecifyPos>(
   Const.Storage_Key_Map.必选字位置,
@@ -53,7 +53,7 @@ let default_input_必选字位置 = utils.getValueByStorage<Type.CharSpecifyPos>
 );
 let default_input_必选字 = utils.getValueByStorage<string>(
   Const.Storage_Key_Map.必选字,
-  "王建国\n呼兰\n庞博\n程璐\n周奇墨"
+  "博\n韵\n馨\n炎\n锋"
 );
 let default_gender_type = utils.getValueByStorage<Type.GenderType>(
   Const.Storage_Key_Map.Gender_Type,
